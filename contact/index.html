@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact Us - Services App</title>
+
+  <!-- Correct relative path to CSS -->
+  <link rel="stylesheet" href="../assets/css/styles.css" />
+  <meta name="description" content="Get in touch with Services App — we're here to help.">
+</head>
+<body>
+  <!-- Header -->
+  <header class="container header">
+    <a href="../index.html" class="brand" style="text-decoration:none;color:inherit;display:flex;gap:.75rem;align-items:center">
+      <div class="logo">SA</div>
+      <div>
+        <div style="font-weight:700">Services App</div>
+        <div class="small">AI Coding Test</div>
+      </div>
+    </a>
+
+    <nav id="main-nav" class="nav" aria-label="Main navigation">
+      <a href="../index.html">Home</a>
+      <a href="../services/index.html">Services</a>
+      <a href="../about/index.html">About</a>
+      <a href="../blog/index.html">Blog</a>
+      <a href="index.html" aria-current="page">Contact</a>
+      <a href="../privacy/index.html">Privacy</a>
+      <a href="../terms/index.html">Terms</a>
+      <a href="../cookies/index.html">Cookies</a>
+      <a class="cta" href="index.html">Get Quote</a>
+    </nav>
+
+    <button id="nav-toggle" aria-expanded="false" aria-controls="main-nav" style="background:none;border:0;cursor:pointer">☰</button>
+  </header>
+
+  <!-- Main content -->
+  <main class="container">
+    <section class="hero">
+      <div class="card">
+        <h1>Contact Us</h1>
+        <p class="small">We’d love to hear from you. Fill out the form below and we’ll get back to you soon.</p>
+      </div>
+    </section>
+
+    <section style="margin-top:1rem">
+      <div class="card">
+        <h2>Get in Touch</h2>
+        <form action="#" method="post" style="display:grid;gap:1rem;margin-top:1rem">
+          <div>
+            <label for="name" class="small">Name</label>
+            <input type="text" id="name" name="name" required style="width:100%;padding:.5rem;border-radius:8px;border:1px solid #ccc" />
+          </div>
+
+          <div>
+            <label for="email" class="small">Email</label>
+            <input type="email" id="email" name="email" required style="width:100%;padding:.5rem;border-radius:8px;border:1px solid #ccc" />
+          </div>
+
+          <div>
+            <label for="message" class="small">Message</label>
+            <textarea id="message" name="message" rows="5" required style="width:100%;padding:.5rem;border-radius:8px;border:1px solid #ccc"></textarea>
+          </div>
+
+          <button type="submit" class="cta" style="width:max-content">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container">
+    <div class="footer-grid">
+      <div>
+        <strong>Services App</strong>
+        <div class="small">Modern services for human benefit. </div>
+      </div>
+    </div>
+    <div style="margin-top:1rem" class="small">© <span data-year></span> Services App — All rights reserved</div>
+  </footer>
+
+  <!-- Correct relative JS path -->
+  <script src="../assets/js/scripts.js"></script>
+</body>
+</html>
